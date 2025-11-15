@@ -77,5 +77,5 @@ It detects inappropriate or offensive language using a **custom-built slang dict
 ---
 
 ## 📜 License  
-This project is open-source under the **MIT License**.
+This project is open-source under the **GPL-3.0 license**.
 

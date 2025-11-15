@@ -1,53 +1,81 @@
-# Advanced Content Moderation Assistant
+# 🛡️ Advanced Content Moderation Assistant
 
-The **Content Moderation Assistant** is a smart moderation system built using **Vite**, **React**, **ShadCN**, and **TypeScript**.
-It detects offensive or inappropriate language using a **customized slang dictionary**, without depending on any external datasets or APIs.
-
----
-
-## Features
-
-* Detects slang and offensive words through a custom in-house dictionary.
-* Processes input locally for real-time feedback.
-* Built with a clean and responsive interface using ShadCN/UI.
-* Developed using modern frontend technologies for efficiency and scalability.
-* Easily extendable for context-based analysis and categorization.
+The **Advanced Content Moderation Assistant** is a lightweight, fast, and fully client-side moderation tool built using **Vite, React, ShadCN/UI, and TypeScript**.  
+It detects inappropriate or offensive language using a **custom-built slang dictionary** — without relying on external APIs, datasets, or cloud services.
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-* Vite
-* React
-* ShadCN/UI
-* TypeScript
-* Custom Slang Dictionary
+### 🔍 Custom Slang Detection  
+- Scans input text for slang/offensive words  
+- Uses an **in-house dictionary** (editable & extendable)  
+- Zero external API dependency
 
----
+### ⚡ Real-Time Local Processing  
+- Runs entirely on the user's device  
+- Instant results  
+- No network delay or privacy concerns
 
-## How It Works
+### 🎨 Modern UI  
+- Built with **ShadCN/UI** components  
+- Clean, responsive, and minimal interface  
+- Professional UX with smooth interactions
 
-1. The user inputs text for moderation.
-2. The system scans each word against the custom slang dictionary.
-3. It identifies flagged terms and classifies the text based on defined rules.
-4. The results are displayed instantly in the interface.
-
----
-
-## Contributors
-
-**Developed by:** [Kasam Saketh](https://github.com/kasamsaketh)
-
----
-
-## Future Enhancements
-
-* Add context-aware sentiment scoring.
-* Expand the slang dictionary with category-wise classification.
-* Include multilingual support.
-* Create an analytics dashboard for moderation patterns.
+### 🔧 Scalable Architecture  
+- Modular TypeScript code  
+- Easy to maintain and extend  
+- Ideal for integrating into larger moderation systems
 
 ---
 
+## 🛠️ Tech Stack
 
+- **Vite** — Fast development & optimized builds  
+- **React** — Component-based UI  
+- **TypeScript** — Type safety & maintainability  
+- **ShadCN/UI** — Modern design system  
+- **Custom Slang Dictionary** — No third-party datasets  
+
+---
+
+## ⚙️ How It Works
+
+1. User enters text into the moderation interface  
+2. The system splits the text into words  
+3. Each word is matched against the **custom slang dictionary**  
+4. Flagged terms are identified instantly  
+5. Results are shown in the UI with:
+   - Highlighted offensive words  
+   - Severity classification  
+   - Moderation suggestions (optional extension)
+
+---
+
+## 👨‍💻 Contributors
+
+**Developed by:**  
+**Mr Alpha**
+
+---
+
+## 🔮 Future Enhancements
+
+- 🧠 **Context-aware sentiment scoring**  
+  - Detect sarcasm, tone, and contextual meaning  
+
+- 🗂️ **Category-wise slang classification**  
+  - Harassment, hate speech, adult, toxic, etc.
+
+- 🌐 **Multilingual support**  
+  - Add dictionaries for Hindi, Telugu, English, Kannada, etc.
+
+- 📊 **Moderation analytics dashboard**  
+  - Track usage patterns  
+  - Offensive word frequency trends  
+
+---
+
+## 📜 License  
+This project is open-source under the **MIT License**.
 
